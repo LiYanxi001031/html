@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&family=Kanit:wght@700&display=swap');
+
+/* Design constants */
+html {
+div {
+  background-image: url("chessboxing_background.jpg");
+  color: #f9f8f8;
+}
+h1{
+    list-style-type: none;
+      padding: 30;
+}
+div {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+  
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  
+}
+
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* Change the link and background color on hover */
+li a:hover {
+  color: rgb(253, 253, 4);
+  
+}
+    /* Harmonic scale */
+    --ratio: 1.4142356;
+    --s-5: calc(var(--s-4) / var(--ratio));
+    --s-4: calc(var(--s-3) / var(--ratio)); /* Larger title font size */
+    --s-3: calc(var(--s-2) / var(--ratio)); /* Smaller title font size */
+    --s-2: calc(var(--s-1) / var(--ratio));
+    --s-1: calc(var(--s0) / var(--ratio));
+    --s0: 1rem; /* table font size */
+    --s1: calc(var(--s0) * var(--ratio));
+    --s2: calc(var(--s1) * var(--ratio));
+    --s3: calc(var(--s2) * var(--ratio));
+    --s4: calc(var(--s3) * var(--ratio));
+    --s5: calc(var(--s4) * var(--ratio));
+
+    /* white spaces */
+    --page-margin: var(--s4);
+    --vertical-space: var(--s2);
+    --menu-space: var(--s0);
+
+    /* colors */
+    --frame-color: #ccc;
+}
+
+/* Adjust page margin for small dislays */
+@media only screen and (max-width: 600px) {
+    :root {
+        --page-margin: var(--s-2);
+    }
+    div {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+div {float: right;}
+}
+
+
+
+/*** Page layout **********************************************************************************/
+
+
